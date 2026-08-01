@@ -1,7 +1,26 @@
 aid: packhelp
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/packhelp.png
 name: Packhelp
-description: Packhelp is a company surfaced as a portfolio company of speedinvest and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Packhelp is a European custom and wholesale packaging platform that lets
+  businesses design, order, and warehouse branded packaging — boxes, mailers,
+  bags, tubes, and accessories — through online design tools and a curated
+  catalog of EU-based producers. Packhelp also markets "the first-ever API for
+  packaging," a sales-gated set of web services that let 3PL, fulfillment,
+  marketplace, logistics, and food-delivery platforms embed packaging quoting,
+  ordering, and a drag-and-drop packaging editor directly into their own
+  applications and whitelabel storefronts.
 url: https://raw.githubusercontent.com/api-evangelist/packhelp/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +30,56 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
-apis: []
+- Packaging
+- Custom Packaging
+- E-commerce
+- Fulfillment
+- Logistics
+- Procurement
+- Marketplace
+- Sustainability
+apis:
+- name: Packhelp Packaging API
+  description: >-
+    Packhelp's "first-ever API for packaging" — a sales-gated set of web
+    services for building packaging workflows into your own application: sell
+    and quote packaging, access a curated EU-producer catalog, and embed a
+    drag-and-drop packaging editor. Aimed at 3PL/fulfillment, marketplaces,
+    logistics, and food-delivery platforms. Access is via sales engagement; no
+    public self-serve documentation or OpenAPI is published as of this profile.
+  humanURL: https://packhelp.com/web-services/
+  tags:
+  - Packaging
+  - API
+  - Web Services
+  properties:
+  - type: Overview
+    url: https://packhelp.com/web-services/
+common:
+- type: DomainSecurity
+  url: security/packhelp-domain-security.yml
+- type: Website
+  url: https://packhelp.com/
+- type: Support
+  url: https://packhelp.com/help/
+- type: Blog
+  url: https://packhelp.com/blog/
+- type: GitHubOrganization
+  url: https://github.com/packhelp
+- type: TermsOfService
+  url: https://packhelp.com/terms_of_service/
+- type: PrivacyPolicy
+  url: https://packhelp.com/privacy_policy/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
