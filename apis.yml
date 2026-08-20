@@ -35,6 +35,16 @@ tags:
 - Company
 - Packaging
 - Custom Packaging
+- E-Commerce
+- Fulfillment
+- Logistics
+- Procurement
+- Marketplace
+- Sustainability
+tags_raw:
+- Company
+- Packaging
+- Custom Packaging
 - E-commerce
 - Fulfillment
 - Logistics
@@ -52,6 +62,9 @@ apis:
     public self-serve documentation or OpenAPI is published as of this profile.
   humanURL: https://packhelp.com/web-services/
   tags:
+  - Packaging
+  - Web Services
+  tags_raw:
   - Packaging
   - API
   - Web Services
